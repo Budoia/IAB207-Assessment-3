@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Books'Land</title>
+    <meta name="description" content=" Books'Land">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <!-- Navbar: navigation bar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand text-light" href="landingpage.html">
+                <img src="static/y.png" width="30" height="30" class="d-inline-block align-top"
+                    alt="">
+                    Books'Land
+            </a>
+
+         <!-- create a button for collapsing the menu -->
+             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+             </button>
+
+             <div class="collapse navbar-collapse" id="navbarNav">
+
+
+
+                 <!-- individual menu item-->
+                 <a class="nav-item nav-link text-light active" href="User Watch List.html">Your List</a>
+                 <!-- individual menu item-->
+                 <a class="nav-item nav-link text-light active" href="Item creation.html">Add Item</a>
+                 <!-- individual menu item-->
+                 <a class="nav-item nav-link text-light active" href="#">Contact Us</a>
+
+                 <!-- get menu items right-aligned  -->
+                 <ul class="nav navbar-nav ml-auto">
+                     <li class="nav-item active">
+                         <a class="nav-item nav-link text-light active" href="./Authentication.html">Login</a>
+                     </li>
+                     <li class="nav-item">
+
+                     </li>
+                 </ul>
+             </div>
+        </nav>
+
+        <!--Jumbotron for Hero Section -->
+        <div class="jumbotron card card-image" style="background-image: url(static/movie.png); padding:0px !important; margin:0px !important;">
+            <div class="row justify-content-center mt-5 pb-4" >
+                <div class="col-md-8">
+                    <div class="jumbotron shadow py-4 mb-5">
+                        <h2 class="text-center">Search your book by title </h2>
+                        <form class="form-inline d-flex flex-nowrap">
+                            
+                                  <input class="form-control flex-grow-1 my-1 mr-sm-2" id="inlineFormCustomSelectPref" type="search" placeholder="Search" aria-label="Search">
+                            
+                            <button type="submit" class="flex-shrink-1 btn btn-primary my-1">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- hero section -->
+
+        <!-- dislay provoking information -->
+      
+
+        <!-- display the movie genres to the user -->
+        <section>
+            <div class="text-dark text-center">
+                <div>
+                    <p class="h3 text-dark mb-4" id="genre_anchor">Choose a book genre to see what we are offering</p>
+                </div>
+            </div>
+            <div class="card-deck"> 
+        </section>
+    </header>
+
+        <!-- Contains the main content of the website, divided into sections -->
+    <main>
+        <section>
+            <div class="card-deck">
+                <article class="card">
+                    <img class="card-img-top"
+                         src="static/action.png"
+                         alt="ACTION MOVIE">
+                    <div class="card-body">
+                        <h3 class="card-title">Action and Adventure</h3>
+                        <p class="card-text">
+                            Action and adventure books constantly have you on the edge of your seat with excitement,
+                            as your fave main character repeatedly finds themselves in high stakes situations..
+                        </p>
+                        <p class="card-text">
+                            Click "View books" to see what Action and Adventure books we are offering.
+                        </p>
+                    </div>
+                    <div class="card-footer"><a href="moviegenre1.html" class="btn btn-primary">View books</a></div>
+                </article>
+                <article class="card">
+                    <img class="card-img-top"
+                         src="static/scifi.png"
+                         alt="Sci-fi">
+                    <div class="card-body">
+                        <h3 class="card-title">Sci-Fi</h3>
+                        <p class="card-text">
+                            Though they're often thought of in the same vein as fantasy,
+                            what distinguishes science fiction stories is that they lean heavily on themes of technology and future science
+                        </p>
+                        <p class="card-text">
+                            Click "View books" to see what Sci-Fi books we are offering.
+                        </p>
+                    </div>
+                    <div class="card-footer"><a href="moviegenre2.html" class="btn btn-primary">View books</a></div>
+                </article>
+                <article class="card">
+                    <img class="card-img-top"
+                         src="static/horror.png"
+                         alt="Horror">
+                    <div class="card-body">
+                        <h3 class="card-title">Horror</h3>
+                        <p class="card-text">
+                            Meant to cause discomfort and fear for both the character and readers,
+                            horror writers often make use of supernatural and paranormal elements
+                            in morbid stories that are sometimes a little too realistic.
+                        </p>
+                        <p class="card-text">
+                            Click "View books" to see what horror movies we are offering.
+                        </p>
+                    </div>
+                    <div class="card-footer"><a href="moviegenre3.html" class="btn btn-primary">View books</a></div>
+                </article>
+            </div> <!-- End card deck -->
+        </section>
+        <section>
+            <div class="text-dark text-center" style="margin-top:3%">
+                <div>
+                    <p class="h3 text-dark mb-4" id="genre_anchor">Top high number of bids books</p>
+                </div>
+            </div>
+            <div class="card-deck">
+        </section>
+        <section>
+            <div class="card-deck">
+                <article class="card">
+                    <img class="card-img-top"
+                         src="static/incre.png">
+                    <div class="card-body">
+                        <h3 class="card-title" style="color:brown">The Good Teacher</h3>
+                        <p class="card-text">
+                            <strong>Description:</strong> A good teacher can change live...
+                        </p>
+                        <p class="card-text">
+                            <strong>Author:</strong> Petronella McGovern
+                        </p>
+                        <p class="card-text">
+                            <strong>Published:</strong> Sep 2019
+                        </p>
+                        <p class="card-text">
+                            <strong>Number Of Pages:</strong> 512
+                        </p>
+                        <p class="card-text">
+                            <strong>Genre:</strong> Fiction
+                        </p>
+
+
+
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+
+                        <p class="card-text">
+                            <h5>Bid Status: $30</h5>
+                        </p>
+
+                    </div>
+                    <div class="card-footer">
+                        <a href="Item details page.html" class="btn btn-primary">View details</a>
+
+                    </div>
+                </article>
+                <article class="card">
+                    <img class="card-img-top"
+                         src="static/the-mystery-woman.jpg">
+                    <div class="card-body">
+                        <h3 class="card-title" style="color:brown">The Mystery Woman</h3>
+                        <p class="card-text">
+                            <strong>Description:</strong> A good teacher can change live...
+                        </p>
+                        <p class="card-text">
+                            <strong>Author:</strong> Belinda Alexandra
+                        </p>The Good Teacher
+                        <p class="card-text">
+                            <strong>Published:</strong> Sep 2019
+                        </p>
+                        <p class="card-text">
+                            <strong>Number Of Pages:</strong> 388
+                        </p>
+                        <p class="card-text">
+                            <strong>Genre:</strong> Novel
+                        </p>
+
+
+
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+
+                        <p class="card-text">
+                            <h5>Bid Status: $60</h5>
+                        </p>
+
+                    </div>
+                    <div class="card-footer">
+                        <a href="Item details page.html" class="btn btn-primary">View details</a>
+
+                    </div>
+                </article>
+                <article class="card">
+                    <img class="card-img-top"
+                         src="static/think-like-a-monk.jpg">
+                    <div class="card-body">
+                        <h3 class="card-title" style="color:brown">Think Like a Monk</h3>
+                        <p class="card-text">
+                            <strong>Description:</strong> How to Train Your Mind for Peace and Purpose Everyday...
+                        </p>
+                        <p class="card-text">
+                            <strong>Author:</strong> Jay Shetty
+                        </p>The Good Teacher
+                        <p class="card-text">
+                            <strong>Published:</strong> Sep 2019
+                        </p>
+                        <p class="card-text">
+                            <strong>Number Of Pages:</strong> 352
+                        </p>
+                        <p class="card-text">
+                            <strong>Genre:</strong> Economic
+                        </p>
+
+
+
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+
+                        <p class="card-text">
+                            <h5>Bid Status: $50</h5>
+                        </p>
+
+                    </div>
+                    <div class="card-footer">
+                        <a href="Item details page.html" class="btn btn-primary">View details</a>
+
+                    </div>
+                </article>
+                <article class="card">
+                    <img class="card-img-top"
+                         src="static/bluebird.jpg">
+                    <div class="card-body">
+                        <h3 class="card-title" style="color:brown">Bluebird</h3>
+                        <p class="card-text">
+                            <strong>Description:</strong> If Winton is an aria, Knox is early Rolling Stones...
+                        </p>
+                        <p class="card-text">
+                            <strong>Author:</strong> Malcolm Knox
+                        </p>The Good Teacher
+                        <p class="card-text">
+                            <strong>Published:</strong> Sep 2019
+                        </p>
+                        <p class="card-text">
+                            <strong>Number Of Pages:</strong> 517
+                        </p>
+                        <p class="card-text">
+                            <strong>Genre:</strong>Novel
+                        </p>
+
+
+
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+
+                        <p class="card-text">
+                            <h5>Bid Status: $50</h5>
+                        </p>
+
+                    </div>
+                    <div class="card-footer">
+                        <a href="Item details page.html" class="btn btn-primary">View details</a>
+
+                    </div>
+                </article>
+                <article class="card">
+                    <img class="card-img-top"
+                         src="static/sorrow-and-bliss.jpg">
+                    <div class="card-body">
+                        <h3 class="card-title" style="color:brown">Sorrow and Bliss</h3>
+                        <p class="card-text">
+                            <strong>Description:</strong> If Winton is an aria, Knox is early Rolling Stones...
+                        </p>
+                        <p class="card-text">
+                            <strong>Author:</strong> Meg Mason
+                        </p>The Good Teacher
+                        <p class="card-text">
+                            <strong>Published:</strong> Sep 2019
+                        </p>
+                        <p class="card-text">
+                            <strong>Number Of Pages:</strong> 352
+                        </p>
+                        <p class="card-text">
+                            <strong>Genre:</strong>Music
+                        </p>
+
+
+
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+
+                        <p class="card-text">
+                            <h5>Bid Status: $60</h5>
+                        </p>
+
+                    </div>
+                    <div class="card-footer">
+                        <a href="Item details page.html" class="btn btn-primary">View details</a>
+
+                    </div>
+                </article>
+
+            </div> <!-- End card deck -->
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container text-center">
+            <p>Copyright &copy; Books' Land</p>
+        </div>
+    </footer>
+    <!-- Footer -->
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+</body>
+</html>
+
+
+
+
+ 
+
